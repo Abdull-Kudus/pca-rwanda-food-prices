@@ -1,1 +1,27 @@
-PCA on Rwanda food prices
+# PCA from Scratch: Rwanda Food Prices (Formative 1)
+
+Principal Component Analysis written from scratch with NumPy only (Matplotlib for plots), applied to WFP retail food prices from Rwandan markets, 2018–2026.
+
+**Team:** Gatete Derrick, Abdul Kudus Zakaria Mukhtaru | **Peer pair:** 22
+
+## Files
+
+| File | What it is |
+|---|---|
+| `PCA_Formative_1_Rwanda_Food_Prices.ipynb` | Completed notebook with all outputs |
+| `wfp_food_prices_rwa.csv` | Raw WFP dataset as downloaded (157,754 rows × 16 columns). The notebook reshapes it to 1,875 market-months × 13 columns with 1,596 missing values |
+| `Task Sheet _Advanced Linear Algebra_Formative 2 - Principle Component Analysis_Cohort 2_Team22.pdf` | Task/contribution sheet |
+| `Combined_Advanced Linear Algebra_Formative_2_ PCA_And_Team_Task_Sheet_Cohort 2_Team22.pdf` | Combined PDF (notebook + contribution sheet) |
+
+## Data source
+
+World Food Programme, Rwanda – Food Prices, Humanitarian Data Exchange: [https://data.humdata.org/dataset/wfp-food-prices-for-rwanda](https://data.humdata.org/dataset/wfp-food-prices-for-rwanda)
+
+## Run it
+
+Open the notebook in Google Colab (File → Open notebook → GitHub → paste this repo's URL), then Runtime → Run all. If the CSV isn't found, set `DATA_PATH` to this file's raw GitHub URL.
+
+**Additional instructions:**
+1. Make sure to display outputs for each code cell when submitting.
+2. Do not write all your code on one cell.
+3. Do not use any libraries aside from numpy (matplotlib is used only for plots).
